@@ -1,0 +1,4 @@
+	Console.WriteLine("Insira seu nome:");
+			string nome = Console.ReadLine();
+			Console.WriteLine("Você possui carteira de motorista?");
+			string carteira = Console.ReadLine();
