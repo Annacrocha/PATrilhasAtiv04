@@ -1,0 +1,25 @@
+using System;
+
+namespace atividade
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Você deseja adicionar açúcar ou leite ao seu café?");
+			string adicional = Console.ReadLine().ToLower();
+			
+			Console.WriteLine(" ");
+			
+			if (adicional == "açúcar" || adicional == "leite") {
+				Console.WriteLine("Café com adicional preparado!");
+			} else {
+				Console.WriteLine("Café sem adicional preparado!");
+			}
+			
+			                  
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
