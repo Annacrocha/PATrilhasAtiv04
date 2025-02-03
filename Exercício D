@@ -1,0 +1,24 @@
+using System;
+
+namespace atividade
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Você é assinante do nosso serviço de streaming?");
+			bool assinante = Console.ReadLine().ToLower() == "sim";
+			Console.WriteLine("Já assistiu On My Block?");
+			bool temp = Console.ReadLine().ToLower() == "sim";
+			Console.WriteLine(" ");
+			if (assinante && temp) {
+				Console.WriteLine("Ótimo, agora você pode assistir a nova temporada!");
+			} else {
+				Console.WriteLine("Que tal embarcar nessa aventura?");
+			}
+			                  
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
