@@ -1,0 +1,26 @@
+using System;
+
+namespace atividade
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Você deseja comprar um produto?");
+			string resposta = Console.ReadLine();
+			
+			Console.WriteLine(" ");
+			
+			if (resposta == "sim" || resposta == "s") {
+				Console.WriteLine("Obrigado pela compra!");
+			} else {
+				Console.WriteLine("Volte quando quiser comprar!");
+			}
+			
+			
+			                  
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
