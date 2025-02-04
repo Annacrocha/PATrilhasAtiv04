@@ -1,0 +1,25 @@
+using System;
+
+namespace ATIVIDADE_4_
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Digite seu nome: ");
+			string nome = Console.ReadLine();
+			
+			Console.WriteLine(" ");
+			
+			if (nome == "Wilson" || nome == "Glória") {
+				Console.WriteLine("Olá, bem-vindo(a) de volta!");
+			} else {
+				Console.WriteLine("Olá, bem-vindo(a) pela primeira vez!");
+			}
+			    
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
